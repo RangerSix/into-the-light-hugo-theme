@@ -1,0 +1,63 @@
+/* General Reset and Body Styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #ffffff;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Header & Navigation */
+  .site-header, .site-footer {
+    background: #f4f4f4;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .site-header h1 a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007acc;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Blog Posts */
+  .post {
+    margin-bottom: 2rem;
+  }
+  
+  .post h2 a {
+    color: #007acc;
+  }
+  
+  .post .date {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  /* Footer */
+  .site-footer p {
+    font-size: 0.8rem;
+    color: #555;
+  }
